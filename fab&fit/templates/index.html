@@ -1,0 +1,237 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+    <title>Fab & Fit - Home</title>
+</head>
+<body>
+    <h1>Welcome to Fab & Fit</h1>
+    {% with messages = get_flashed_messages() %}
+        {% if messages %}
+            <ul>
+                {% for message in messages %}
+                    <li>{{ message }}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+    {% endwith %}
+    <h2>Choose an Option</h2>
+    <form method="POST" enctype="multipart/form-data">
+        <label for="choice">Select Option:</label>
+        <select name="choice" id="choice">
+            <option value="photo">Upload a Photo</option>
+            <option value="manual">Enter Items Manually</option>
+        </select>
+        <br>
+        <label for="file">Upload Image (if photo selected):</label>
+        <input type="file" name="file" id="file" accept="image/*">
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+    <br>
+    <a href="{{ url_for('profile') }}">Get Personalized Meal Plan</a>
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chomp Checker - Your Personal Nutrition Assistant</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .hero-section {
+            background: linear-gradient(135deg, #4CAF50, #2196F3);
+            color: white;
+            padding: 4rem 0;
+            margin-bottom: 2rem;
+        }
+        .card {
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        .btn-primary {
+            background-color: #4CAF50;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 25px;
+        }
+        .btn-primary:hover {
+            background-color: #45a049;
+        }
+        .btn-secondary {
+            background-color: #2196F3;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 25px;
+        }
+        .btn-secondary:hover {
+            background-color: #1976D2;
+        }
+        .file-upload {
+            border: 2px dashed #ddd;
+            border-radius: 15px;
+            padding: 20px;
+            text-align: center;
+            margin: 20px 0;
+            cursor: pointer;
+        }
+        .file-upload:hover {
+            border-color: #4CAF50;
+        }
+        .alert {
+            border-radius: 15px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero Section -->
+    <div class="hero-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h1 class="display-4 mb-4">Welcome to Chomp Checker</h1>
+                    <p class="lead">Your personal nutrition assistant for healthy living</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="container">
+        <!-- Flash Messages -->
+        {% with messages = get_flashed_messages() %}
+            {% if messages %}
+                {% for message in messages %}
+                    <div class="alert alert-info alert-dismissible fade show" role="alert">
+                        {{ message }}
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    </div>
+                {% endfor %}
+            {% endif %}
+        {% endwith %}
+
+        <!-- Options Cards -->
+        <div class="row justify-content-center mb-5">
+            <div class="col-md-6">
+                <div class="card mb-4">
+                    <div class="card-body text-center p-5">
+                        <h2 class="card-title mb-4">Choose Your Option</h2>
+                        <form method="POST" enctype="multipart/form-data" id="optionForm">
+                            <div class="mb-4">
+                                <select class="form-select form-select-lg mb-3" name="choice" id="choice" onchange="toggleFileUpload()">
+                                    <option value="">Select an option</option>
+                                    <option value="photo">Upload a Photo</option>
+                                    <option value="manual">Enter Items Manually</option>
+                                </select>
+                            </div>
+
+                            <div id="fileUploadSection" class="file-upload d-none">
+                                <input type="file" name="file" id="file" class="d-none" accept="image/*" onchange="updateFileName()">
+                                <label for="file" class="mb-0">
+                                    <div>
+                                        <i class="fas fa-cloud-upload-alt fa-2x mb-2"></i>
+                                        <p class="mb-0" id="fileLabel">Click to upload image or drag and drop</p>
+                                        <p class="text-muted small mb-0">Supported formats: PNG, JPG, JPEG, GIF</p>
+                                    </div>
+                                </label>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-lg w-100 mb-3">Submit</button>
+                        </form>
+                        
+                        <a href="{{ url_for('profile') }}" class="btn btn-secondary btn-lg w-100">
+                            Get Personalized Meal Plan
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-light py-4 mt-5">
+        <div class="container text-center">
+            <p class="text-muted mb-0">© 2025 Chomp Checker. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and Font Awesome -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/your-font-awesome-kit.js"></script>
+    
+    <script>
+        function toggleFileUpload() {
+            const choice = document.getElementById('choice').value;
+            const fileUploadSection = document.getElementById('fileUploadSection');
+            
+            if (choice === 'photo') {
+                fileUploadSection.classList.remove('d-none');
+            } else {
+                fileUploadSection.classList.add('d-none');
+            }
+        }
+
+        function updateFileName() {
+            const fileInput = document.getElementById('file');
+            const fileLabel = document.getElementById('fileLabel');
+            
+            if (fileInput.files.length > 0) {
+                fileLabel.textContent = fileInput.files[0].name;
+            } else {
+                fileLabel.textContent = 'Click to upload image or drag and drop';
+            }
+        }
+
+        // Drag and drop functionality
+        const dropZone = document.getElementById('fileUploadSection');
+        
+        ['dragenter', 'dragover', 'dragleave', 'drop'].forEach(eventName => {
+            dropZone.addEventListener(eventName, preventDefaults, false);
+        });
+
+        function preventDefaults(e) {
+            e.preventDefault();
+            e.stopPropagation();
+        }
+
+        ['dragenter', 'dragover'].forEach(eventName => {
+            dropZone.addEventListener(eventName, highlight, false);
+        });
+
+        ['dragleave', 'drop'].forEach(eventName => {
+            dropZone.addEventListener(eventName, unhighlight, false);
+        });
+
+        function highlight(e) {
+            dropZone.classList.add('border-primary');
+        }
+
+        function unhighlight(e) {
+            dropZone.classList.remove('border-primary');
+        }
+
+        dropZone.addEventListener('drop', handleDrop, false);
+
+        function handleDrop(e) {
+            const dt = e.dataTransfer;
+            const files = dt.files;
+            document.getElementById('file').files = files;
+            updateFileName();
+        }
+    </script>
+</body>
+</html>

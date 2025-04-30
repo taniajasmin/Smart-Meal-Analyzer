@@ -1,0 +1,244 @@
+2025-04-30 08:18:21,207 - INFO: Gemini API configured successfully.
+2025-04-30 08:18:35,741 - INFO: Successfully read image file: C:\Users\BD Calling IT\Desktop\New folder\images.jpg
+2025-04-30 08:18:35,751 - INFO: Image processed in memory for analysis.
+2025-04-30 08:18:35,751 - INFO: Sending image analysis request to Gemini...
+2025-04-30 08:18:38,773 - INFO:  Venmo response received from Gemini in 3.02 seconds
+2025-04-30 08:18:38,777 - INFO: Requesting nutritional data for Avocado Toast with Heart-Shaped Fried Egg and Strawberries...
+2025-04-30 08:18:39,556 - INFO: Nutritional data received in 0.78 seconds
+2025-04-30 08:19:57,085 - INFO: Generating personalized meal plan...
+2025-04-30 08:20:02,825 - INFO: Meal plan generated in 5.74 seconds
+2025-04-30 08:22:12,826 - INFO: Gemini API configured successfully.
+2025-04-30 08:23:04,732 - INFO: Requesting nutritional data for Breakfast...
+2025-04-30 08:23:06,943 - INFO: Nutritional data received in 2.21 seconds
+2025-04-30 08:24:08,190 - INFO: Generating personalized meal plan...
+2025-04-30 08:24:13,999 - INFO: Meal plan generated in 5.81 seconds
+2025-04-30 09:35:54,496 - INFO: Gemini API configured successfully.
+2025-04-30 09:35:54,533 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.70.205:5000
+2025-04-30 09:35:54,534 - INFO: [33mPress CTRL+C to quit[0m
+2025-04-30 09:35:54,536 - INFO:  * Restarting with stat
+2025-04-30 09:35:55,563 - INFO: Gemini API configured successfully.
+2025-04-30 09:35:55,572 - WARNING:  * Debugger is active!
+2025-04-30 09:35:55,575 - INFO:  * Debugger PIN: 105-178-807
+2025-04-30 09:36:07,396 - INFO: 10.0.70.205 - - [30/Apr/2025 09:36:07] "GET / HTTP/1.1" 200 -
+2025-04-30 09:36:07,413 - INFO: 10.0.70.205 - - [30/Apr/2025 09:36:07] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2025-04-30 09:36:07,444 - INFO: 10.0.70.205 - - [30/Apr/2025 09:36:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-30 09:36:31,794 - INFO: Image processed in memory for analysis.
+2025-04-30 09:36:31,794 - INFO: Sending image analysis request to Gemini...
+2025-04-30 09:36:44,711 - INFO: Response received from Gemini in 12.92 seconds
+2025-04-30 09:36:44,712 - INFO: Requesting nutritional data for Full English Breakfast...
+2025-04-30 09:36:45,950 - INFO: Nutritional data received in 1.24 seconds
+2025-04-30 09:36:45,951 - INFO: 10.0.70.205 - - [30/Apr/2025 09:36:45] "POST /analyze-meal HTTP/1.1" 200 -
+2025-04-30 09:37:39,503 - INFO: Generating personalized meal plan...
+2025-04-30 09:37:44,705 - INFO: Meal plan generated in 5.20 seconds
+2025-04-30 09:37:44,707 - INFO: 10.0.70.205 - - [30/Apr/2025 09:37:44] "POST /generate-meal-plan HTTP/1.1" 200 -
+2025-04-30 09:38:29,592 - INFO: 10.0.70.205 - - [30/Apr/2025 09:38:29] "GET / HTTP/1.1" 200 -
+2025-04-30 09:38:29,608 - INFO: 10.0.70.205 - - [30/Apr/2025 09:38:29] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2025-04-30 09:42:22,196 - INFO: Requesting nutritional data for Chicken Biriany...
+2025-04-30 09:42:23,698 - INFO: Nutritional data received in 1.50 seconds
+2025-04-30 09:42:23,701 - INFO: 10.0.70.205 - - [30/Apr/2025 09:42:23] "POST /analyze-manual HTTP/1.1" 200 -
+2025-04-30 09:43:18,909 - INFO: Gemini API configured successfully.
+2025-04-30 09:44:37,683 - INFO: Requesting nutritional data for Chicken Biriany...
+2025-04-30 09:44:38,797 - INFO: Nutritional data received in 1.11 seconds
+2025-04-30 09:44:56,678 - INFO: Gemini API configured successfully.
+2025-04-30 09:46:10,423 - INFO: Requesting nutritional data for Beef bargur...
+2025-04-30 09:46:12,618 - INFO: Nutritional data received in 2.20 seconds
+2025-04-30 10:14:47,472 - INFO: Gemini API configured successfully.
+2025-04-30 10:15:53,665 - INFO: Requesting nutritional data for chicken bargur...
+2025-04-30 10:15:56,046 - INFO: Nutritional data received in 2.38 seconds
+2025-04-30 10:15:56,046 - INFO: Raw nutritional response: It's impossible to provide exact macronutrient values without knowing the specific weight of the chicken drumstick and the type and weight of the "bargur breed" (presumably a type of bread).  The nutritional content varies significantly depending on these factors.  More information is needed.
+
+2025-04-30 10:22:01,100 - INFO: Gemini API configured successfully.
+2025-04-30 10:22:43,809 - INFO: Requesting nutritional data for ramen...
+2025-04-30 10:22:46,079 - INFO: Nutritional data received in 2.27 seconds
+2025-04-30 10:22:46,079 - INFO: Raw nutritional response: - Calories: 450 kcal
+- Carbohydrates: 70 g
+- Protein: 15 g
+- Fat: 15 g
+- Fiber: 5 g
+
+2025-04-30 10:24:34,379 - INFO: Generating personalized meal plan...
+2025-04-30 10:24:39,759 - INFO: Meal plan generated in 5.38 seconds
+2025-04-30 10:25:05,455 - INFO: Gemini API configured successfully.
+2025-04-30 10:25:47,097 - INFO: Successfully read image file: C:\Users\BD Calling IT\Desktop\New folder\images.jpg
+2025-04-30 10:25:47,109 - INFO: Image processed in memory for analysis.
+2025-04-30 10:25:47,110 - INFO: Sending image analysis request to Gemini...
+2025-04-30 10:25:50,263 - INFO: Response received from Gemini in 3.15 seconds
+2025-04-30 10:25:50,264 - INFO: Requesting nutritional data for Avocado Toast with Heart-Shaped Fried Egg and Strawberries...
+2025-04-30 10:25:50,961 - INFO: Nutritional data received in 0.70 seconds
+2025-04-30 10:25:50,961 - INFO: Raw nutritional response: - Calories: 350 kcal
+- Carbohydrates: 40 g
+- Protein: 12 g
+- Fat: 20 g
+- Fiber: 8 g
+
+2025-04-30 10:27:00,081 - INFO: Generating personalized meal plan...
+2025-04-30 10:27:04,468 - INFO: Meal plan generated in 4.39 seconds
+2025-04-30 10:34:00,428 - INFO: Gemini API configured successfully.
+2025-04-30 10:34:00,448 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.70.205:5000
+2025-04-30 10:34:00,448 - INFO: [33mPress CTRL+C to quit[0m
+2025-04-30 10:34:00,455 - INFO:  * Restarting with stat
+2025-04-30 10:34:01,538 - INFO: Gemini API configured successfully.
+2025-04-30 10:34:01,557 - WARNING:  * Debugger is active!
+2025-04-30 10:34:01,560 - INFO:  * Debugger PIN: 105-178-807
+2025-04-30 10:34:13,119 - INFO: 10.0.70.205 - - [30/Apr/2025 10:34:13] "GET / HTTP/1.1" 200 -
+2025-04-30 10:34:39,089 - INFO: Image processed in memory for analysis.
+2025-04-30 10:34:39,089 - INFO: Sending image analysis request to Gemini...
+2025-04-30 10:34:42,230 - INFO: Response received from Gemini in 3.14 seconds
+2025-04-30 10:34:42,231 - INFO: Requesting nutritional data for Avocado Toast with Heart-Shaped Fried Egg and Strawberries...
+2025-04-30 10:34:43,001 - INFO: Nutritional data received in 0.77 seconds
+2025-04-30 10:34:43,004 - INFO: Raw nutritional response: - Calories: 380 kcal
+- Carbohydrates: 40 g
+- Protein: 12 g
+- Fat: 22 g
+- Fiber: 10 g
+
+2025-04-30 10:34:43,022 - INFO: 10.0.70.205 - - [30/Apr/2025 10:34:43] "POST / HTTP/1.1" 200 -
+2025-04-30 10:34:47,803 - INFO: 10.0.70.205 - - [30/Apr/2025 10:34:47] "GET /profile HTTP/1.1" 200 -
+2025-04-30 10:35:34,025 - INFO: Generating personalized meal plan...
+2025-04-30 10:35:39,052 - INFO: Meal plan generated in 5.03 seconds
+2025-04-30 10:35:39,064 - INFO: 10.0.70.205 - - [30/Apr/2025 10:35:39] "POST /profile HTTP/1.1" 200 -
+2025-04-30 10:45:09,212 - INFO: 10.0.70.205 - - [30/Apr/2025 10:45:09] "GET /profile HTTP/1.1" 200 -
+2025-04-30 10:45:12,678 - INFO: 10.0.70.205 - - [30/Apr/2025 10:45:12] "GET / HTTP/1.1" 200 -
+2025-04-30 10:45:29,352 - INFO: 10.0.70.205 - - [30/Apr/2025 10:45:29] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-04-30 10:45:29,384 - INFO: 10.0.70.205 - - [30/Apr/2025 10:45:29] "GET /manual_entry HTTP/1.1" 200 -
+2025-04-30 10:45:34,640 - INFO: 10.0.70.205 - - [30/Apr/2025 10:45:34] "GET / HTTP/1.1" 200 -
+2025-04-30 10:52:38,849 - INFO: 10.0.70.205 - - [30/Apr/2025 10:52:38] "GET / HTTP/1.1" 200 -
+2025-04-30 10:52:45,982 - INFO: 10.0.70.205 - - [30/Apr/2025 10:52:45] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-04-30 10:52:45,985 - INFO: 10.0.70.205 - - [30/Apr/2025 10:52:45] "GET /manual_entry HTTP/1.1" 200 -
+2025-04-30 10:53:39,332 - INFO: Requesting nutritional data for Chicken Burger...
+2025-04-30 10:53:41,440 - INFO: Nutritional data received in 2.11 seconds
+2025-04-30 10:53:41,441 - INFO: Raw nutritional response: - Calories: 650 kcal
+- Carbohydrates: 60 g
+- Protein: 45 g
+- Fat: 30 g
+- Fiber: 5 g
+
+2025-04-30 10:53:41,444 - INFO: 10.0.70.205 - - [30/Apr/2025 10:53:41] "POST /manual_entry HTTP/1.1" 200 -
+2025-04-30 10:53:49,915 - INFO: 10.0.70.205 - - [30/Apr/2025 10:53:49] "GET /profile HTTP/1.1" 200 -
+2025-04-30 10:54:09,124 - INFO: Generating personalized meal plan...
+2025-04-30 10:54:13,713 - INFO: Meal plan generated in 4.59 seconds
+2025-04-30 10:54:13,713 - INFO: 10.0.70.205 - - [30/Apr/2025 10:54:13] "POST /profile HTTP/1.1" 200 -
+2025-04-30 10:54:50,075 - INFO: 10.0.70.205 - - [30/Apr/2025 10:54:50] "GET / HTTP/1.1" 200 -
+2025-04-30 10:55:00,148 - INFO: Image processed in memory for analysis.
+2025-04-30 10:55:00,148 - INFO: Sending image analysis request to Gemini...
+2025-04-30 10:55:10,197 - INFO: Response received from Gemini in 10.05 seconds
+2025-04-30 10:55:10,198 - INFO: Requesting nutritional data for Full English Breakfast...
+2025-04-30 10:55:10,963 - INFO: Nutritional data received in 0.76 seconds
+2025-04-30 10:55:10,964 - INFO: Raw nutritional response: - Calories: 1250 kcal
+- Carbohydrates: 45 g
+- Protein: 60 g
+- Fat: 80 g
+- Fiber: 10 g
+
+2025-04-30 10:55:10,965 - INFO: 10.0.70.205 - - [30/Apr/2025 10:55:10] "POST / HTTP/1.1" 200 -
+2025-04-30 10:55:14,739 - INFO: 10.0.70.205 - - [30/Apr/2025 10:55:14] "GET / HTTP/1.1" 200 -
+2025-04-30 10:55:15,836 - INFO: 10.0.70.205 - - [30/Apr/2025 10:55:15] "GET /profile HTTP/1.1" 200 -
+2025-04-30 10:59:37,731 - INFO: Gemini API configured successfully.
+2025-04-30 10:59:37,751 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.70.205:5000
+2025-04-30 10:59:37,751 - INFO: [33mPress CTRL+C to quit[0m
+2025-04-30 10:59:37,752 - INFO:  * Restarting with stat
+2025-04-30 10:59:38,837 - INFO: Gemini API configured successfully.
+2025-04-30 10:59:38,851 - WARNING:  * Debugger is active!
+2025-04-30 10:59:38,852 - INFO:  * Debugger PIN: 105-178-807
+2025-04-30 10:59:42,002 - INFO: 10.0.70.205 - - [30/Apr/2025 10:59:42] "GET / HTTP/1.1" 200 -
+2025-04-30 10:59:48,822 - INFO: Image processed in memory for analysis.
+2025-04-30 10:59:48,822 - INFO: Sending image analysis request to Gemini...
+2025-04-30 10:59:51,031 - INFO: Response received from Gemini in 2.21 seconds
+2025-04-30 10:59:51,032 - INFO: Requesting nutritional data for Avocado Toast with Heart-Shaped Fried Egg and Strawberries...
+2025-04-30 10:59:51,816 - INFO: Nutritional data received in 0.78 seconds
+2025-04-30 10:59:51,816 - INFO: Raw nutritional response: - Calories: 420 kcal
+- Carbohydrates: 45 g
+- Protein: 15 g
+- Fat: 25 g
+- Fiber: 10 g
+
+2025-04-30 10:59:51,839 - INFO: 10.0.70.205 - - [30/Apr/2025 10:59:51] "POST / HTTP/1.1" 200 -
+2025-04-30 11:00:00,822 - INFO: 10.0.70.205 - - [30/Apr/2025 11:00:00] "GET / HTTP/1.1" 200 -
+2025-04-30 11:00:02,121 - INFO: 10.0.70.205 - - [30/Apr/2025 11:00:02] "GET /profile HTTP/1.1" 200 -
+2025-04-30 11:00:17,952 - INFO: 10.0.70.205 - - [30/Apr/2025 11:00:17] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-04-30 11:00:17,998 - INFO: 10.0.70.205 - - [30/Apr/2025 11:00:17] "GET /manual_entry HTTP/1.1" 200 -
+2025-04-30 11:00:30,833 - INFO: Requesting nutritional data for Chicken Burger...
+2025-04-30 11:00:31,548 - INFO: Nutritional data received in 0.71 seconds
+2025-04-30 11:00:31,548 - INFO: Raw nutritional response: - Calories: 650 kcal
+- Carbohydrates: 60 g
+- Protein: 45 g
+- Fat: 30 g
+- Fiber: 5 g
+
+2025-04-30 11:00:31,549 - INFO: 10.0.70.205 - - [30/Apr/2025 11:00:31] "POST /manual_entry HTTP/1.1" 200 -
+2025-04-30 11:01:44,030 - INFO: 10.0.70.205 - - [30/Apr/2025 11:01:44] "GET / HTTP/1.1" 200 -
+2025-04-30 11:04:51,478 - INFO: 10.0.70.205 - - [30/Apr/2025 11:04:51] "GET / HTTP/1.1" 200 -
+2025-04-30 11:05:00,445 - INFO: Image processed in memory for analysis.
+2025-04-30 11:05:00,446 - INFO: Sending image analysis request to Gemini...
+2025-04-30 11:05:02,509 - INFO: Response received from Gemini in 2.06 seconds
+2025-04-30 11:05:02,512 - INFO: Requesting nutritional data for Avocado Toast with Heart-Shaped Fried Egg and Strawberries...
+2025-04-30 11:05:03,250 - INFO: Nutritional data received in 0.74 seconds
+2025-04-30 11:05:03,250 - INFO: Raw nutritional response: - Calories: 450 kcal
+- Carbohydrates: 45 g
+- Protein: 15 g
+- Fat: 25 g
+- Fiber: 10 g
+
+2025-04-30 11:05:03,269 - INFO: 10.0.70.205 - - [30/Apr/2025 11:05:03] "POST / HTTP/1.1" 200 -
+2025-04-30 11:05:15,837 - INFO: 10.0.70.205 - - [30/Apr/2025 11:05:15] "GET /profile HTTP/1.1" 200 -
+2025-04-30 11:05:45,150 - INFO: Generating personalized meal plan...
+2025-04-30 11:05:50,535 - INFO: Meal plan generated in 5.38 seconds
+2025-04-30 11:05:50,549 - INFO: 10.0.70.205 - - [30/Apr/2025 11:05:50] "POST /profile HTTP/1.1" 200 -
+2025-04-30 11:05:56,468 - INFO: 10.0.70.205 - - [30/Apr/2025 11:05:56] "GET / HTTP/1.1" 200 -
+2025-04-30 11:06:02,665 - INFO: 10.0.70.205 - - [30/Apr/2025 11:06:02] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-04-30 11:06:02,668 - INFO: 10.0.70.205 - - [30/Apr/2025 11:06:02] "GET /manual_entry HTTP/1.1" 200 -
+2025-04-30 11:06:20,448 - INFO: Requesting nutritional data for Chicken Burger...
+2025-04-30 11:06:21,320 - INFO: Nutritional data received in 0.87 seconds
+2025-04-30 11:06:21,320 - INFO: Raw nutritional response: - Calories: 750 kcal
+- Carbohydrates: 70 g
+- Protein: 45 g
+- Fat: 35 g
+- Fiber: 5 g
+
+2025-04-30 11:06:21,323 - INFO: 10.0.70.205 - - [30/Apr/2025 11:06:21] "POST /manual_entry HTTP/1.1" 200 -
+2025-04-30 11:06:24,541 - INFO: 10.0.70.205 - - [30/Apr/2025 11:06:24] "GET /profile HTTP/1.1" 200 -
+2025-04-30 11:06:48,332 - INFO: Generating personalized meal plan...
+2025-04-30 11:06:54,417 - INFO: Meal plan generated in 6.09 seconds
+2025-04-30 11:06:54,418 - INFO: 10.0.70.205 - - [30/Apr/2025 11:06:54] "POST /profile HTTP/1.1" 200 -
+2025-04-30 11:07:04,516 - INFO: 10.0.70.205 - - [30/Apr/2025 11:07:04] "GET / HTTP/1.1" 200 -
+2025-04-30 11:11:10,712 - INFO: 10.0.70.205 - - [30/Apr/2025 11:11:10] "GET / HTTP/1.1" 200 -
+2025-04-30 11:11:13,189 - INFO: 10.0.70.205 - - [30/Apr/2025 11:11:13] "GET / HTTP/1.1" 200 -
+2025-04-30 11:11:44,627 - INFO: 10.0.70.205 - - [30/Apr/2025 11:11:44] "GET / HTTP/1.1" 200 -
+2025-04-30 11:11:54,581 - INFO: Image processed in memory for analysis.
+2025-04-30 11:11:54,582 - INFO: Sending image analysis request to Gemini...
+2025-04-30 11:12:05,174 - INFO: Response received from Gemini in 10.59 seconds
+2025-04-30 11:12:05,175 - INFO: Requesting nutritional data for Full English Breakfast...
+2025-04-30 11:12:05,961 - INFO: Nutritional data received in 0.79 seconds
+2025-04-30 11:12:05,961 - INFO: Raw nutritional response: - Calories: 1150 kcal
+- Carbohydrates: 45 g
+- Protein: 65 g
+- Fat: 75 g
+- Fiber: 10 g
+
+2025-04-30 11:12:05,986 - INFO: 10.0.70.205 - - [30/Apr/2025 11:12:05] "POST / HTTP/1.1" 200 -
+2025-04-30 11:12:13,020 - INFO: 10.0.70.205 - - [30/Apr/2025 11:12:13] "GET /profile HTTP/1.1" 200 -
+2025-04-30 11:12:30,981 - INFO: Generating personalized meal plan...
+2025-04-30 11:12:36,535 - INFO: Meal plan generated in 5.55 seconds
+2025-04-30 11:12:36,549 - INFO: 10.0.70.205 - - [30/Apr/2025 11:12:36] "POST /profile HTTP/1.1" 200 -
+2025-04-30 11:12:42,475 - INFO: 10.0.70.205 - - [30/Apr/2025 11:12:42] "GET / HTTP/1.1" 200 -
+2025-04-30 11:13:55,880 - INFO: Image processed in memory for analysis.
+2025-04-30 11:13:55,880 - INFO: Sending image analysis request to Gemini...
+2025-04-30 11:14:00,080 - INFO: Response received from Gemini in 4.20 seconds
+2025-04-30 11:14:00,081 - INFO: Requesting nutritional data for Bottled Water...
+2025-04-30 11:14:00,795 - INFO: Nutritional data received in 0.71 seconds
+2025-04-30 11:14:00,797 - INFO: Raw nutritional response: - Calories: 0 kcal
+- Carbohydrates: 0 g
+- Protein: 0 g
+- Fat: 0 g
+- Fiber: 0 g
+
+2025-04-30 11:14:00,806 - INFO: 10.0.70.205 - - [30/Apr/2025 11:14:00] "POST / HTTP/1.1" 200 -
